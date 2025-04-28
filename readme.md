@@ -45,3 +45,13 @@ export default function Sidebar() {
 }
 
 ~~~
+
+## What's happening here:
+
+FaBars = hamburger icon (opens sidebar)
+
+FaTimes = cross (X) icon (closes sidebar)
+
+useState is used to track whether the sidebar is open or closed.
+
+Using Tailwind classes to slide the sidebar smoothly.
